@@ -144,6 +144,7 @@ p {
 .profile .experience li {
   display: flex;
   margin-bottom: 28px;
+  vertical-align: middle;
 }
 .profile .experience li::before {
   content: "";
