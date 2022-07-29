@@ -144,13 +144,13 @@ p {
 }
 .profile .experience li {
   display: flex;
+  align-items: center;
   margin-bottom: 28px;
   vertical-align: middle;
 }
 .profile .experience li::before {
   content: "";
   display: inline-block;
-  align-items: center;
   width: 22px;
   height: 22px;
   background: #891818;
