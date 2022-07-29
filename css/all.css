@@ -102,15 +102,16 @@ p {
 }
 
 .header {
+  height: 958px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url(../images/banner.png);
   background-size: cover;
   background-position: center center;
 }
 .header .title {
   color: #fff;
-  margin: 308px 0;
 }
 .header p {
   font-size: 24px;
@@ -149,6 +150,7 @@ p {
 .profile .experience li::before {
   content: "";
   display: inline-block;
+  align-items: center;
   width: 22px;
   height: 22px;
   background: #891818;
